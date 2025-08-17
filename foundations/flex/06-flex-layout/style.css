@@ -12,7 +12,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 16px;
 }
 
 .left-links li a,
@@ -25,12 +24,24 @@
 .right-links li{
   list-style-type: none;
   color: gray;
+  margin: 0px 8px;
 }
 
 .footer{
   background-color: lightgray;
 }
 
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.buttons button{
+  padding: 8px;
+}
 
 body {
   height: 100vh;
